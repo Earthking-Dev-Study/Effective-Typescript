@@ -32,7 +32,7 @@ app.get("/post", (request, response) => {
 
 내 예전 코드를 보면 "이렇게 하지 맙시다"를 내가 하고 있음
 
-![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/deb5f71b-ada1-4adb-b956-75fb64797bdc/Untitled.png)
+https://github.com/ksmfou98/cafe/blob/master/server/src/controllers/boardController.ts
 
 <br />
 
