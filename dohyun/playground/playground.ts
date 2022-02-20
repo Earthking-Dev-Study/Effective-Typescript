@@ -1,12 +1,7 @@
-interface Position {
-  x: number;
-  y: number;
-  z: number;
+function Value(initialValue: boolean = false) {
+  const value = initialValue;
+
+  return value;
 }
 
-type XYPosition = Pick<Position, "x" | "y">;
-
-const position: XYPosition = {
-  x: 1,
-  y: 2,
-};
+const value = Value();

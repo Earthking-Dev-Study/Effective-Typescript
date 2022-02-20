@@ -55,7 +55,8 @@ document.querySelector("#Id") as HTMLElement;
     ```jsx
     useEffect(() => {
       if (ref.current) {
-        ref.current.focus();
+        ref.current!
+        .focus();
       }
     }, [ref]);
     ```
