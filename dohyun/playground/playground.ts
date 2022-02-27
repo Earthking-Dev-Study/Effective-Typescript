@@ -1,7 +1,5 @@
-function Value(initialValue: boolean = false) {
-  const value = initialValue;
+let x = "x"; // string
 
-  return value;
-}
+x = "Asdasd"
 
-const value = Value();
+const y = "y"; // "y"
